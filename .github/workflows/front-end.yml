@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - "front-end/**"
+      - develop
 
 env:
   REGISTRY: ghcr.io
